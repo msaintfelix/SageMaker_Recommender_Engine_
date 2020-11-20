@@ -1,12 +1,5 @@
 # Machine_Learning_SageMaker_Recommender_Engine_
 
-
-
-
-
-
-
-
 # Objective
 
 The objective of this project is to build a recommender engine with AWS SageMaker. The main goal is to recommend the top 20 movie selection to users that are clustered by preference similarities.
@@ -31,4 +24,4 @@ After transforming the data, we can start the training process using the SageMak
 
 	6. Recommend
 	
-Now that we have identified our clusters, we can make recommendations based on weighted ratings from within each cluster. 
+Now that we have identified our clusters, we can make recommendations to any user based on weighted ratings from within each cluster.
