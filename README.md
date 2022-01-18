@@ -4,6 +4,8 @@
 
 The objective of this project is to build a recommender engine with AWS SageMaker. The main goal is to recommend the top 20 movie selection to users that are clustered by preference similarities.
 
+For a detailed description of this project, check out my article published by Towards Data Science: https://towardsdatascience.com/machine-learning-recommender-engine-with-aws-sagemaker-4892a9e4a858
+
 # Environment and tools
 
 Our MovieLens dataset was downloaded from grouplens.org and more specifically we used movies.csv and ratings.csv from the ml-latest-small.zip file and uploaded it to our AWS S3 bucket. We are working with a Jupyter Notebook with a conda_python3 framework in an AWS SageMaker environment. We used popular ML libraries such as Pandas, Matplotlib and Scikit-Learn to process the data.
